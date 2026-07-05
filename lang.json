@@ -1,0 +1,498 @@
+{
+  "app": {
+    "title": {
+      "ar": "منظومة الفلّاح المتكاملة - الحسابات، الجدوى وإدارة المخازن",
+      "fr": "Système Agricole Intégré - Comptabilité, Rentabilité et Gestion des Stocks",
+      "en": "Integrated Farming System - Accounting, Profitability and Inventory Management"
+    },
+    "subtitle": {
+      "ar": "منظومة الفلّاح المحترفة لإدارة الإنتاج والمخازن",
+      "fr": "Système Agricole Professionnel pour la Gestion de la Production et des Stocks",
+      "en": "Professional Farming System for Production and Inventory Management"
+    }
+  },
+  "tabs": {
+    "finance": {
+      "ar": "الحسابات وتحليل الجدوى",
+      "fr": "Comptabilité et Analyse de Rentabilité",
+      "en": "Accounting and Profitability Analysis"
+    },
+    "inventory": {
+      "ar": "إدارة ومراقبة المخازن",
+      "fr": "Gestion et Contrôle des Stocks",
+      "en": "Inventory Management and Control"
+    }
+  },
+  "finance": {
+    "labels": {
+      "plot": {
+        "ar": "قطعة الأرض:",
+        "fr": "Parcelle:",
+        "en": "Land Plot:"
+      },
+      "operation_type": {
+        "ar": "نوع العملية:",
+        "fr": "Type d'opération:",
+        "en": "Operation Type:"
+      },
+      "item": {
+        "ar": "البيان (بذور، أسمدة، بيع طماطم...)",
+        "fr": "Description (semences, engrais, vente de tomates...)",
+        "en": "Description (seeds, fertilizers, tomato sales...)"
+      },
+      "amount": {
+        "ar": "المبلغ (دينار)",
+        "fr": "Montant (dinar)",
+        "en": "Amount (dinar)"
+      },
+      "filter_label": {
+        "ar": "تحليل جدوى قطعة أرض معينة:",
+        "fr": "Analyse de rentabilité d'une parcelle spécifique:",
+        "en": "Profitability analysis of a specific land plot:"
+      }
+    },
+    "buttons": {
+      "save": {
+        "ar": "حفظ العملية",
+        "fr": "Enregistrer l'opération",
+        "en": "Save Operation"
+      },
+      "refresh": {
+        "ar": "تحديث الحسابات",
+        "fr": "Actualiser les comptes",
+        "en": "Refresh Accounts"
+      },
+      "update": {
+        "ar": "تعديل العملية",
+        "fr": "Modifier l'opération",
+        "en": "Update Operation"
+      },
+      "delete": {
+        "ar": "حذف العملية",
+        "fr": "Supprimer l'opération",
+        "en": "Delete Operation"
+      }
+    },
+    "plots": {
+      "main": {
+        "ar": "القطعة الرئيسية (الضيعة)",
+        "fr": "Parcelle Principale (Domaine)",
+        "en": "Main Plot (Estate)",
+        "original": "القطعة الرئيسية (الضيعة)"
+      },
+      "west": {
+        "ar": "القطعة الغربية",
+        "fr": "Parcelle Ouest",
+        "en": "West Plot",
+        "original": "القطعة الغربية"
+      },
+      "east": {
+        "ar": "القطعة الشرقية",
+        "fr": "Parcelle Est",
+        "en": "East Plot",
+        "original": "القطعة الشرقية"
+      },
+      "greenhouse1": {
+        "ar": "البيت المكيف 1",
+        "fr": "Serre Climatisée 1",
+        "en": "Greenhouse 1",
+        "original": "البيت المكيف 1"
+      },
+      "greenhouse2": {
+        "ar": "البيت المكيف 2",
+        "fr": "Serre Climatisée 2",
+        "en": "Greenhouse 2",
+        "original": "البيت المكيف 2"
+      },
+      "olive": {
+        "ar": "تقسيم أشجار الزيتون",
+        "fr": "Division des Oliviers",
+        "en": "Olive Trees Division",
+        "original": "تقسيم أشجار الزيتون"
+      },
+      "all": {
+        "ar": "كل القطع والأراضي",
+        "fr": "Toutes les parcelles et terres",
+        "en": "All Plots and Lands",
+        "original": "كل القطع والأراضي"
+      }
+    },
+    "operation_types": {
+      "expense": {
+        "ar": "مصروف (رأس مال مستثمر)",
+        "fr": "Dépense (capital investi)",
+        "en": "Expense (invested capital)",
+        "original": "مصروف (رأس مال مستثمر)"
+      },
+      "income": {
+        "ar": "مدخول (بيع ومحصول)",
+        "fr": "Revenu (vente et récolte)",
+        "en": "Income (sales and harvest)",
+        "original": "مدخول (بيع ومحصول)"
+      }
+    },
+    "categories": {
+      "seeds": {
+        "ar": "بذور ومشاتل",
+        "fr": "Semences et pépinières",
+        "en": "Seeds and Nurseries",
+        "original": "بذور ومشاتل"
+      },
+      "fertilizers": {
+        "ar": "أسمدة وأدوية",
+        "fr": "Engrais et médicaments",
+        "en": "Fertilizers and Medicines",
+        "original": "أسمدة وأدوية"
+      },
+      "labor": {
+        "ar": "يد عاملة",
+        "fr": "Main-d'œuvre",
+        "en": "Labor",
+        "original": "يد عاملة"
+      },
+      "irrigation": {
+        "ar": "ري وطاقة",
+        "fr": "Irrigation et énergie",
+        "en": "Irrigation and Energy",
+        "original": "ري وطاقة"
+      },
+      "sales": {
+        "ar": "بيع محصول",
+        "fr": "Vente de récolte",
+        "en": "Crop Sales",
+        "original": "بيع محصول"
+      },
+      "other": {
+        "ar": "أخرى",
+        "fr": "Autres",
+        "en": "Other",
+        "original": "أخرى"
+      }
+    },
+    "table_headers": {
+      "id": {
+        "ar": "المعرف",
+        "fr": "ID",
+        "en": "ID"
+      },
+      "plot": {
+        "ar": "القطعة / التقسيم",
+        "fr": "Parcelle / Division",
+        "en": "Plot / Division"
+      },
+      "type": {
+        "ar": "نوع العملية",
+        "fr": "Type d'opération",
+        "en": "Operation Type"
+      },
+      "item": {
+        "ar": "البيان / المادة",
+        "fr": "Description / Matière",
+        "en": "Description / Item"
+      },
+      "category": {
+        "ar": "الصنف",
+        "fr": "Catégorie",
+        "en": "Category"
+      },
+      "cost": {
+        "ar": "المبلغ (د.ت)",
+        "fr": "Montant (DT)",
+        "en": "Amount (DT)"
+      },
+      "date": {
+        "ar": "التاريخ والوقت",
+        "fr": "Date et heure",
+        "en": "Date and Time"
+      }
+    },
+    "dashboard": {
+      "total_expenses": {
+        "ar": "إجمالي المصاريف: {amount:.3f} د.ت",
+        "fr": "Total des dépenses: {amount:.3f} DT",
+        "en": "Total Expenses: {amount:.3f} DT"
+      },
+      "total_income": {
+        "ar": "إجمالي المداخيل: {amount:.3f} د.ت",
+        "fr": "Total des revenus: {amount:.3f} DT",
+        "en": "Total Income: {amount:.3f} DT"
+      },
+      "net_profit_positive": {
+        "ar": "صافي الأرباح الاستثمارية: +{amount:.3f} د.ت",
+        "fr": "Bénéfice net investi: +{amount:.3f} DT",
+        "en": "Net Investment Profit: +{amount:.3f} DT"
+      },
+      "net_profit_negative": {
+        "ar": "صافي الأرباح (خسارة): {amount:.3f} د.ت",
+        "fr": "Bénéfice net (perte): {amount:.3f} DT",
+        "en": "Net Profit (loss): {amount:.3f} DT"
+      }
+    },
+    "messages": {
+      "save_success": {
+        "ar": "تم تسجيل العملية المالية بنجاح!",
+        "fr": "Opération financière enregistrée avec succès!",
+        "en": "Financial operation recorded successfully!"
+      },
+      "invalid_amount": {
+        "ar": "خطأ: يرجى كتابة مبلغ صحيح وموجب.",
+        "fr": "Erreur: veuillez entrer un montant valide et positif.",
+        "en": "Error: please enter a valid positive amount."
+      },
+      "fill_fields": {
+        "ar": "يرجى تعبئة كافة الحقول المالية.",
+        "fr": "Veuillez remplir tous les champs financiers.",
+        "en": "Please fill all financial fields."
+      },
+      "select_to_update": {
+        "ar": "حدد عملية مالية من الجدول لتعديلها.",
+        "fr": "Sélectionnez une opération financière du tableau pour la modifier.",
+        "en": "Select a financial operation from the table to update."
+      },
+      "update_success": {
+        "ar": "تم تعديل العملية الحسابية بنجاح!",
+        "fr": "Opération comptable modifiée avec succès!",
+        "en": "Accounting operation updated successfully!"
+      },
+      "amount_error": {
+        "ar": "خطأ في قيمة المبلغ.",
+        "fr": "Erreur dans la valeur du montant.",
+        "en": "Error in amount value."
+      },
+      "select_to_delete": {
+        "ar": "اختر السطر المالي المراد حذفه.",
+        "fr": "Sélectionnez la ligne financière à supprimer.",
+        "en": "Select the financial row to delete."
+      },
+      "delete_success": {
+        "ar": "تم حذف العملية الحسابية.",
+        "fr": "Opération comptable supprimée.",
+        "en": "Accounting operation deleted."
+      }
+    }
+  },
+  "inventory": {
+    "labels": {
+      "item_name": {
+        "ar": "اسم المادة المخزنة (مثال: سماد داب، دواء ري...)",
+        "fr": "Nom de l'article stocké (ex: engrais, médicament d'irrigation...)",
+        "en": "Stored item name (ex: fertilizer, irrigation medicine...)"
+      },
+      "quantity": {
+        "ar": "الكمية",
+        "fr": "Quantité",
+        "en": "Quantity"
+      }
+    },
+    "buttons": {
+      "add": {
+        "ar": "إدخل للمخزن",
+        "fr": "Ajouter au stock",
+        "en": "Add to Stock"
+      },
+      "withdraw": {
+        "ar": "سحب واستخدام مادة",
+        "fr": "Retirer et utiliser un article",
+        "en": "Withdraw and Use Item"
+      },
+      "delete": {
+        "ar": "حذف من المخزن",
+        "fr": "Supprimer du stock",
+        "en": "Delete from Stock"
+      }
+    },
+    "units": {
+      "bag": {
+        "ar": "كيس",
+        "fr": "Sac",
+        "en": "Bag",
+        "original": "كيس"
+      },
+      "kg": {
+        "ar": "كغ",
+        "fr": "Kg",
+        "en": "Kg",
+        "original": "كغ"
+      },
+      "liter": {
+        "ar": "لتر",
+        "fr": "Litre",
+        "en": "Liter",
+        "original": "لتر"
+      },
+      "box": {
+        "ar": "صندوق",
+        "fr": "Boîte",
+        "en": "Box",
+        "original": "صندوق"
+      },
+      "carton": {
+        "ar": "علبة",
+        "fr": "Carton",
+        "en": "Carton",
+        "original": "علبة"
+      }
+    },
+    "table_headers": {
+      "id": {
+        "ar": "معرف المادة",
+        "fr": "ID de l'article",
+        "en": "Item ID"
+      },
+      "item": {
+        "ar": "اسم المادة في المخزن",
+        "fr": "Nom de l'article en stock",
+        "en": "Item Name in Stock"
+      },
+      "qty": {
+        "ar": "الكمية المتوفرة حالياً",
+        "fr": "Quantité actuellement disponible",
+        "en": "Currently Available Quantity"
+      },
+      "unit": {
+        "ar": "الوحدة",
+        "fr": "Unité",
+        "en": "Unit"
+      },
+      "last_update": {
+        "ar": "تاريخ آخر تحديث",
+        "fr": "Date de dernière mise à jour",
+        "en": "Last Update Date"
+      }
+    },
+    "messages": {
+      "add_success": {
+        "ar": "تمت إضافة الشحنة للمخزن وتحديث البيانات بنجاح!",
+        "fr": "Livraison ajoutée au stock et données mises à jour avec succès!",
+        "en": "Shipment added to stock and data updated successfully!"
+      },
+      "invalid_quantity": {
+        "ar": "خطأ: يرجى إدخال كمية صحيحة.",
+        "fr": "Erreur: veuillez entrer une quantité valide.",
+        "en": "Error: please enter a valid quantity."
+      },
+      "fill_stock_fields": {
+        "ar": "يرجى تحديد المادة والكمية لتموين المخزن.",
+        "fr": "Veuillez spécifier l'article et la quantité pour approvisionner le stock.",
+        "en": "Please specify the item and quantity to stock."
+      },
+      "withdraw_success": {
+        "ar": "تم سحب المادة وتوجيه المصروف لـ [{plot}]!",
+        "fr": "Article retiré et dépense dirigée vers [{plot}]!",
+        "en": "Item withdrawn and expense directed to [{plot}]!"
+      },
+      "withdraw_failed_insufficient": {
+        "ar": "فشل السحب: الكمية المتوفرة بالمخزن هي {qty} فقط.",
+        "fr": "Échec du retrait: la quantité disponible en stock est seulement {qty}.",
+        "en": "Withdrawal failed: available stock quantity is only {qty}."
+      },
+      "item_not_found": {
+        "ar": "هذه المادة غير متوفرة في مخزنك حالياً.",
+        "fr": "Cet article n'est pas actuellement disponible dans votre stock.",
+        "en": "This item is not currently available in your stock."
+      },
+      "quantity_error": {
+        "ar": "خطأ في كتابة كمية السحب.",
+        "fr": "Erreur dans l'écriture de la quantité de retrait.",
+        "en": "Error in withdrawal quantity input."
+      },
+      "select_withdraw": {
+        "ar": "اضغط على مادة بالجدول واكتب كمية السحب المستهلكة.",
+        "fr": "Cliquez sur un article dans le tableau et entrez la quantité consommée.",
+        "en": "Click on an item in the table and enter the consumed quantity."
+      },
+      "select_to_delete_stock": {
+        "ar": "حدد السطر المخزني المراد حذفه.",
+        "fr": "Sélectionnez la ligne de stock à supprimer.",
+        "en": "Select the stock row to delete."
+      },
+      "delete_stock_success": {
+        "ar": "تم حذف المادة من كشوفات المخزن.",
+        "fr": "Article supprimé des registres de stock.",
+        "en": "Item deleted from stock records."
+      }
+    },
+    "withdraw_statement": {
+      "ar": "سحب واستخدام {qty} {unit} من [{item}]",
+      "fr": "Retrait et utilisation de {qty} {unit} de [{item}]",
+      "en": "Withdrawal and use of {qty} {unit} from [{item}]"
+    }
+  },
+  "common": {
+    "currency": {
+      "ar": "د.ت",
+      "fr": "DT",
+      "en": "DT"
+    },
+    "date_format": {
+      "ar": "%Y-%m-%d %H:%M",
+      "fr": "%Y-%m-%d %H:%M",
+      "en": "%Y-%m-%d %H:%M"
+    },
+    "tags": {
+      "expense": {
+        "ar": "مصروف",
+        "fr": "Dépense",
+        "en": "Expense",
+        "original": "مصروف"
+      },
+      "income": {
+        "ar": "مدخول",
+        "fr": "Revenu",
+        "en": "Income",
+        "original": "مدخول"
+      }
+    },
+    "language": {
+      "ar": "اللغة",
+      "fr": "Langue",
+      "en": "Language"
+    },
+    "language_names": {
+      "ar": "العربية",
+      "fr": "Français",
+      "en": "English"
+    },
+    "secondary_windows": {
+      "ar": "النوافذ الثانوية",
+      "fr": "Fenêtres Secondaires",
+      "en": "Secondary Windows"
+    }
+  },
+  "management": {
+    "title": {
+      "ar": "مراقبة الإدارة",
+      "fr": "Surveillance de la Gestion",
+      "en": "Management Monitoring"
+    },
+    "operations": {
+      "ar": "إدارة العمليات",
+      "fr": "Gestion des Opérations",
+      "en": "Operations Management"
+    }
+  },
+  "feasibility": {
+    "title": {
+      "ar": "الجدوى",
+      "fr": "Rentabilité",
+      "en": "Feasibility"
+    },
+    "analysis": {
+      "ar": "تحليل الجدوى الاقتصادية",
+      "fr": "Analyse de Rentabilité Économique",
+      "en": "Economic Feasibility Analysis"
+    }
+  },
+  "financial": {
+    "title": {
+      "ar": "تحليل الحسابات",
+      "fr": "Analyse Comptable",
+      "en": "Financial Analysis"
+    },
+    "detailed": {
+      "ar": "تحليل مالي مفصل",
+      "fr": "Analyse Financière Détaillée",
+      "en": "Detailed Financial Analysis"
+    }
+  }
+}
